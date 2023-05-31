@@ -6,7 +6,7 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)//we are importing
-@CucumberOptions(features = "src\\test\\resources\\Features",
+@CucumberOptions(features = "src/test/resources/Features",
         glue = "StepDefinitions",
         dryRun = false,//when its true it will generate code without running
         tags=" @database",
